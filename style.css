@@ -1,0 +1,26 @@
+body{
+    background-color: aliceblue;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+#dp{
+    border-radius: 50%;
+    width: 120px;
+}
+#icons{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row; 
+    gap: 10px;
+    background-color: black;
+
+}
+.icon{
+    background-color: white;
+    border: 2px solid black;
+    border-radius: 50%;
+    padding: 0.5em; ;
+}
+

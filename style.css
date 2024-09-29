@@ -5,22 +5,76 @@ body{
     align-items: center;
     justify-content: center;
 }
+#header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
 #dp{
     border-radius: 50%;
     width: 120px;
+    border: 1.5px solid black;
+}
+#main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 #icons{
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     flex-direction: row; 
-    gap: 10px;
-    background-color: black;
+    gap: 20px;
+    background-color: rgb(220, 231, 146);
+    border: 2px solid rgb(255, 255, 178);
+    border-radius: 5%;
+    width: 500px;
 
 }
 .icon{
-    background-color: white;
+    background-color: aliceblue;
     border: 2px solid black;
     border-radius: 50%;
     padding: 0.5em; ;
+    color: black;
+}
+#websites{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    gap: 8px;
+    margin-top: 150px;
+    
+}
+.links{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1000px;
+    background-color: pink;
+    height: 30px;
+    font-size: 35px;
+    padding: 5px 10px 5px 10px;
+    color: black;
+    border: 2px solid rgb(255, 181, 205);
+    
+    
+    
+}
+a{
+    text-decoration: none;
+}
+p{
+    margin-top: 1px;
+    
+    
+    
+}
+h2{
+    margin-bottom: 1px;
+    margin-top: 5px;
+    
 }
 

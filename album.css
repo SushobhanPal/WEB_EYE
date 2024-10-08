@@ -56,9 +56,12 @@ img{
 }
 
 .picture{
+    color:yellowgreen ;
+    font-size: 25px;
     display: flex;
+    flex-direction: column;
     justify-content: center;
-    align-items: flex-end;
+    align-items: center;
     height: 320px;
     width: 300px;
     background-color: #faf6e9;
